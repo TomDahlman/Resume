@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  role: MyString
+  when: MyString
+  where: MyString
+
+two:
+  role: MyString
+  when: MyString
+  where: MyString

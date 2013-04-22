@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  what: MyString
+  when: MyString
+  where: MyString
+
+two:
+  what: MyString
+  when: MyString
+  where: MyString

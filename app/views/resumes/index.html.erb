@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>tdresume</title>
+		<link href='http://fonts.googleapis.com/css?family=EB+Garamond|Sintony:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="resume.css.scss" media="all"/>
+	</head>
+
+
+
+<body class="page">
+	<h1 class="me">Tom Dahlman</h1> 
+	<p class="small_space"> "" </p>
+	<div >
+		<p class="contacts">Evanston, IL</p>
+		<p class="contacts">(847)508-6826</p>
+		<p class="contacts">Github-TomDahlman</p>
+		<p class="contacts">@TomDahlman</p>
+	</div>
+<br />
+<br />
+
+
+<h2 class="topic">Experience</h2>
+
+<div class="topic_list"> 
+<% @experiences.each do |experience| %>
+  <% i = experience.id%>
+  <ul class="places">
+    <li><%= experience.when %>  at <%= experience.where %>  as a <%= experience.role %></li>
+    <div >
+	   <ul class="details">
+		  <br />
+	  	<% @duties.each do |duty| %>
+	    	<% if duty.experience_id == i%>
+	    	<li><%= duty.description %></li>
+			  <% else %>
+			  <% end %>
+	  	<% end %>
+    </div>
+    </ul>
+<% end %>
+  </ul>
+<br />
+
+<h2 class="topic">Education</h2>
+
+<% @educations.each do |education| %>
+  <ul class="places">
+      <li> <%= education.where %> -- <%= education.what %> </li>
+  </ul>
+<% end %>
+<br />
+
+<h2 class="topic">Skills</h2>
+
+<% @skills.each do |skill| %>
+  <ul class="skills">
+    <li><%= skill.what %></li>
+  </ul>
+<% end %>
+<br />
+</body>

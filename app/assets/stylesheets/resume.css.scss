@@ -1,0 +1,65 @@
+
+
+.me {
+	font-family: 'EB+Garamond', times, serif;
+	font-size: 36pt; 
+	margin: 10px; 
+	width: 450px
+	}
+
+.small_space {
+	font-size: 2pt;
+	}
+
+.contacts {
+	font-family: serif;
+	font-size: 16pt;
+	margin: 0px 0px 0px 30px;
+	padding: 2px;
+	}
+
+.topic {
+	font-family: 'EB+Garamond', times, serif; 	  
+	font-size: 22pt; 
+	margin: 10px; 
+	}
+.places {
+	font-family: 'Sintony', ariel, san-serif;
+	font-size: 14pt; 
+	margin: 0px 0px 0px 30px; 
+	list-style-type: square;
+	}
+.topic_list {
+	font-family: 'Sintony', ariel, san-serif;
+	font-size: 12pt; 
+	margin: 0px 0px 0px 20px;
+	list-style-type: square;
+	}
+.details {
+	font-family: 'Sintony', ariel, san-serif; 
+	font-style: italic; 
+	font-size: 12pt; 
+	margin: 0px 0px 30px 30px;
+	list-style-type: circle;
+	}
+
+br {
+	clear: left;
+	}
+
+.skills {
+	font-family: 'Sintony', ariel, san-serif; 
+	font-style: italic; 
+	font-size: 12pt; 
+	margin: 0px 0px 0px 60px;
+	list-style-type: circle;
+	}
+
+.page { 
+	background-image:url('parchment-paper.jpg') ;
+	background-position: 80px 10px; 
+	background-repeat: no-repeat;
+	background-width: 20px;
+	width: 650px; margin: 0 auto;
+	padding: 30px 60px 60px 60px;
+	}

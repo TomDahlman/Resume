@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>What:</b>
+  <%= @education.what %>
+</p>
+
+<p>
+  <b>When:</b>
+  <%= @education.when %>
+</p>
+
+<p>
+  <b>Where:</b>
+  <%= @education.where %>
+</p>
+
+
+<%= link_to 'Edit', edit_education_path(@education) %> |
+<%= link_to 'Back', educations_path %>

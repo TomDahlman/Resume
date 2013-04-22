@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Description:</b>
+  <%= @duty.description %>
+</p>
+
+<p>
+  <b>Experience:</b>
+  <%= @duty.experience_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_duty_path(@duty) %> |
+<%= link_to 'Back', duties_path %>
